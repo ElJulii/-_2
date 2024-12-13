@@ -18,4 +18,3 @@ sleep(sleepSeconds * 1000).then(() => {
     console.log(`Child[${pid}]: before terminated. Parent PID ${ppid}. Exit status ${exitStatus}.`);
     process.exit(exitStatus);
 });
-
